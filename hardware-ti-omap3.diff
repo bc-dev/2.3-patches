@@ -1,0 +1,14 @@
+diff --git a/Android.mk b/Android.mk
+index 7ba4385..ffb6c7a 100644
+--- a/Android.mk
++++ b/Android.mk
+@@ -13,6 +13,6 @@
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ #
+-ifeq ($(TARGET_BOARD_PLATFORM),omap3)
+-  include $(all-subdir-makefiles)
+-endif
++#ifeq ($(TARGET_BOARD_PLATFORM),omap3)
++#  include $(all-subdir-makefiles)
++#endif
